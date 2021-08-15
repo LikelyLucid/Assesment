@@ -1,6 +1,5 @@
 player_score = 0
 code = ""
-wdawd = ""
 
 
 def check_score(player_score):
