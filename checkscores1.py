@@ -1,6 +1,6 @@
 player_score = 0
 code = ""
-
+import requests
 
 def check_score(player_score):
 
@@ -15,3 +15,5 @@ if check_score(int(input("Waht is the player score:"))):
 else:
     print("Sorry, you have no lives left")
     print("{final summary}")
+res = requests.get("https://opentdb.com/api.php?amount=1000")
+print(res.text)
