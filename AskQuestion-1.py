@@ -1,7 +1,6 @@
 import random
 
 difficulty = "hard"
-global points, answer
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
 points = 0
