@@ -15,5 +15,6 @@ if check_score(int(input("Waht is the player score:"))):
 else:
     print("Sorry, you have no lives left")
     print("{final summary}")
-res = requests.get("https://opentdb.com/api.php?amount=1000")
+res = requests.get(
+    "https://opentdb.com/api.php?amount=10&category=19&difficulty=easy")
 print(res.text)
