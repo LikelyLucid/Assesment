@@ -10,5 +10,8 @@ def check_score(player_score):
         code = False
     return code
 
-if check_score(0):
+if check_score(int(input("Waht is the player score:"))):
     print("Continue")
+else:
+    print("Sorry, you have no lives left")
+    print("{final summary}")
