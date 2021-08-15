@@ -9,3 +9,6 @@ def check_score(player_score):
     else:
         code = False
     return code
+
+if check_score(0):
+    print("Continue")
