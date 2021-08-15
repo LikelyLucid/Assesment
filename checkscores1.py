@@ -15,6 +15,4 @@ def check_score(player_score):
 # else:
 #     print("Sorry, you have no lives left")
 #     print("{final summary}")
-res = requests.get(
-    "")
-print(res.text)
+
