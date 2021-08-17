@@ -1,9 +1,9 @@
 import random
+points = 0
 
 difficulty = "hard"
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
-points = 0
 
 
 def integer_checker(question):
