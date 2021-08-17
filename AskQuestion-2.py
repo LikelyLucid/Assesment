@@ -23,14 +23,14 @@ def finish():
 
 
 def answerright():
-    print("answer right")
+    print("Correct answer!")
     points = + 1
     print("your score is: ", points)
 
 
 def answerwrong():
     print("answer wrong")
-    print("The answer was {}".format(answer))
+    print(f"The answer was {answer}")
     points =- 1
 
 
