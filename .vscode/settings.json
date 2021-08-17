@@ -1,3 +1,20 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#5cd6ad",
+        "activityBar.activeBorder": "#b266d9",
+        "activityBar.background": "#5cd6ad",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#b266d9",
+        "activityBarBadge.foreground": "#15202b",
+        "statusBar.background": "#33cc99",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#29a37a",
+        "titleBar.activeBackground": "#33cc99",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#33cc9999",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#33cc99"
 }
