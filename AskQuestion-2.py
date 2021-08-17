@@ -31,8 +31,7 @@ def answerright():
 def answerwrong():
     print("answer wrong")
     print("The answer was {}".format(answer))
-    if points == 0:
-        finish()
+    points =- 1
 
 
 while True:
