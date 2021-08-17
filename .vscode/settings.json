@@ -1,20 +1,20 @@
 {
     "gitdoc.enabled": true,
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#7de586",
-        "activityBar.activeBorder": "#837ae4",
-        "activityBar.background": "#7de586",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#837ae4",
+        "activityBar.activeBackground": "#f80536",
+        "activityBar.activeBorder": "#30db04",
+        "activityBar.background": "#f80536",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#30db04",
         "activityBarBadge.foreground": "#15202b",
-        "statusBar.background": "#53dc5e",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#2bd138",
-        "titleBar.activeBackground": "#53dc5e",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#53dc5e99",
-        "titleBar.inactiveForeground": "#15202b99"
+        "statusBar.background": "#c6042b",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#f80536",
+        "titleBar.activeBackground": "#c6042b",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#c6042b99",
+        "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#53dc5e"
+    "peacock.color": "#c6042b"
 }
