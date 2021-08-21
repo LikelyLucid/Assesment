@@ -70,7 +70,7 @@ while True:
             else:
                 answerwrong()
 
-    if difficulty == "hard":
+    elif difficulty == "hard":
         hardmin, hardmax = + (points * 5)
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
@@ -94,17 +94,6 @@ while True:
             answer = num1 - num2
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
-            if ask == answer:
-                answerright()
-
-            else:
-                answerwrong()
-
-        elif choice == 2:
-            # figure out the answer
-            answer = num1 / num2
-            # ask for answer through interger checker
-            ask = integer_checker("What does\n{} / {} = ".format(num1, num2))
             if ask == answer:
                 answerright()
 
