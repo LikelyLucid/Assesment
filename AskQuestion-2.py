@@ -32,7 +32,7 @@ def answerright(points):
 def answerwrong(points):
     print("answer wrong")
     print(f"The answer was {answer}")
-    points = - 1
+    points = points - 1
 
 
 while True:
