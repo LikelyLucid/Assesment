@@ -29,7 +29,7 @@ def answerright(points):
     print("your score is: ", points)
 
 
-def answerwrong(points):
+def answerwrong(pointspoints):
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1
@@ -55,7 +55,7 @@ while True:
                 answerright(points)
 
             else:
-                answerwrong()
+                answerwrong(points)
 
         elif choice == 2:
             # figure out the answer
@@ -69,7 +69,7 @@ while True:
                 answerright(points)
 
             else:
-                answerwrong()
+                answerwrong(points)
 
     elif difficulty == "hard":
         hardmin, hardmax = hardmin+(points * 5), hardmax+(points * 5)
@@ -88,7 +88,7 @@ while True:
                 answerright(points)
 
             else:
-                answerwrong()
+                answerwrong(points)
 
         elif choice == 2:
             # figure out the answer
@@ -99,7 +99,7 @@ while True:
                 answerright(points)
 
             else:
-                answerwrong()
+                answerwrong(points)
 
         elif choice == 4:
             # figure out the answer
@@ -110,4 +110,4 @@ while True:
                 answerright(points)
 
             else:
-                answerwrong()
+                answerwrong(points)
