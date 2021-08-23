@@ -87,9 +87,9 @@ while True:
         choice = random.randint(1, 4)
 
         if choice == 1:
-            # figure out the answer
+                                            # figure out the answer
             answer = num1 + num2
-            # ask for answer and check if it is an integer
+                                            # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
@@ -98,9 +98,9 @@ while True:
                 points = answerwrong(points)
 
         elif choice == 2:
-            # figure out the answer
+                                            # figure out the answer
             answer = num1 - num2
-            # ask for answer through interger checker
+                                            # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
@@ -109,9 +109,9 @@ while True:
                 points = answerwrong(points)
 
         elif choice == 4:
-            # figure out the answer
+                                            # figure out the answer
             answer = num1 * num2
-            # ask for answer through interger checker
+                                            # ask for answer through interger checker
             ask = integer_checker("What does\n{} * {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
