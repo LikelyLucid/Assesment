@@ -4,6 +4,7 @@ def get_first_value(string):
     return string[0]
 
 def SortList():
+    list 
     with open("./Scores.txt", "w") as scores:
         for line in scores:
             list.append(line)
