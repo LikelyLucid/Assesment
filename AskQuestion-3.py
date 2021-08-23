@@ -42,7 +42,7 @@ def answerwrong(points):
 
 while True:
     if difficulty == "easy":
-        # Set numbers to random a random number
+                                            # Set numbers to random a random number
         num1 = random.randint(easymin, easymax)
         num2 = random.randint(easymin, easymax)
         # Make a choice between + or -
