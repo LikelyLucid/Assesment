@@ -33,7 +33,7 @@ def answerright(points):
 def answerwrong(points):
     print("answer wrong")
     print(f"The answer was {answer}")
-    points = points - 1
+    points = points - 1  # add 1 to score
     if check_score(points):
         finish()
     print("your score is: ", points - 1)
