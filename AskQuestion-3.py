@@ -64,7 +64,7 @@ while True:
                 points = answerwrong(points)
 
         elif choice == 2:
-            # figure out the answer
+                                            # figure out the answer
             answer = num1 - num2
             print(answer)
             if answer < 0:
