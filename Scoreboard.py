@@ -9,5 +9,5 @@ def SortList():
         for line in scores:
             list.append(line)
     print(sorted(list, key=get_first_value))
-    
+    return l
 SortList()
