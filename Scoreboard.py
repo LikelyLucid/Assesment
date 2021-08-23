@@ -10,4 +10,5 @@ def SortScores():
             list.append(line)
     # print(sorted(list, key=get_first_value))
     return sorted(list, key=get_first_value)
-print(SortScores())
+#print(SortScores())
+
