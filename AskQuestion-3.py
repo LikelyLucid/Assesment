@@ -35,6 +35,7 @@ def answerwrong(points):
     print(f"The answer was {answer}")
     points = points - 1
     if check_score(points):
+        
     print("your score is: ", points - 1)
     return points
 
