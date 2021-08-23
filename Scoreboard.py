@@ -13,5 +13,5 @@ def SortScores():
 
 #print(SortScores())
 string = "100 - Michael"
-string.split("-")
+string =string.split("-")
 print(string.split(-)[0])
