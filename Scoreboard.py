@@ -1,1 +1,1 @@
-with open("/Scores.txt")
+with open("/Scores.txt", )
