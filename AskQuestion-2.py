@@ -52,7 +52,7 @@ while True:
             # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
-                answerright()
+                answerright(points)
 
             else:
                 answerwrong()
@@ -66,7 +66,7 @@ while True:
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
-                answerright()
+                answerright(points)
 
             else:
                 answerwrong()
@@ -85,7 +85,7 @@ while True:
             # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
-                answerright()
+                answerright(points)
 
             else:
                 answerwrong()
@@ -96,7 +96,7 @@ while True:
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
-                answerright()
+                answerright(points)
 
             else:
                 answerwrong()
@@ -107,7 +107,7 @@ while True:
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} * {} = ".format(num1, num2))
             if ask == answer:
-                answerright()
+                answerright(points)
 
             else:
                 answerwrong()
