@@ -1,5 +1,5 @@
 import random
-global points
+
 points = 1
 
 difficulty = "hard"
