@@ -25,37 +25,37 @@ def finish():
 
 def answerright(points):
     print("Correct answer!")
-    points = points + 1                     # add 1 to score
-    print("your score is: ", points - 1)    # Minus 1 point because they start with 1 point, 
+    points = points + 1 # add 1 to score
+    print("your score is: ", points - 1)# minus 1 point because they start with 1 point, 
     return points                           # Easier than setting score to 0 and checking if score is -1
 
 
 def answerwrong(points):
     print("answer wrong")
     print(f"The answer was {answer}")
-    points = points - 1                     # add 1 to score
-    if check_score(points):                 #check if score is 0
-        finish()                            #if so call the end code
-    print("your score is: ", points - 1)    # wont run if the end code is called
-    return points                           #return the points
+    points = points - 1  # add 1 to score
+    if check_score(points): #check if score is 0
+        finish() #if so call the end code
+    print("your score is: ", points - 1) # wont run if the end code is called
+    return points #return the points
 
 
 while True:
     if difficulty == "easy":
-                                            # Set numbers to random a random number
+        # Set numbers to random a random number
         num1 = random.randint(easymin, easymax)
         num2 = random.randint(easymin, easymax)
-                                            # Make a choice between + or -
+        # Make a choice between + or -
         choice = random.randint(1, 2)
 
         if choice == 1:
-                                            # figure out the answer
+            # figure out the answer
             answer = num1 + num2
             print(answer)
             if answer < 0:
                 num1, num2 = num2, num1
                 answer = num1 + num2
-                                            # ask for answer and check if it is an integer
+            # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
@@ -64,13 +64,13 @@ while True:
                 points = answerwrong(points)
 
         elif choice == 2:
-                                            # figure out the answer
+            # figure out the answer
             answer = num1 - num2
             print(answer)
             if answer < 0:
                 num1, num2 = num2, num1
                 answer = num1 - num2
-                                            # ask for answer through interger checker
+            # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
@@ -80,16 +80,16 @@ while True:
 
     elif difficulty == "hard":
         hardmin, hardmax = hardmin+(points * 5), hardmax+(points * 5)
-                                            # Set numbers to random a random number
+        # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
-                                            # Make a choice between + or -
+        # Make a choice between + or -
         choice = random.randint(1, 4)
 
         if choice == 1:
-                                            # figure out the answer
+            # figure out the answer
             answer = num1 + num2
-                                            # ask for answer and check if it is an integer
+            # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
@@ -98,9 +98,9 @@ while True:
                 points = answerwrong(points)
 
         elif choice == 2:
-                                            # figure out the answer
+            # figure out the answer
             answer = num1 - num2
-                                            # ask for answer through interger checker
+            # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
@@ -109,9 +109,9 @@ while True:
                 points = answerwrong(points)
 
         elif choice == 4:
-                                            # figure out the answer
+            # figure out the answer
             answer = num1 * num2
-                                            # ask for answer through interger checker
+            # ask for answer through interger checker
             ask = integer_checker("What does\n{} * {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
