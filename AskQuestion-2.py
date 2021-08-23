@@ -26,7 +26,7 @@ def finish():
 def answerright(points):
     print("Correct answer!")
     points = points + 1
-    print("your score is: ", points -)
+    print("your score is: ", points - 1)
     return points
 
 
