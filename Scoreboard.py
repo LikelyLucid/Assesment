@@ -1,1 +1,1 @@
-with open
+with open()
