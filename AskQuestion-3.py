@@ -2,7 +2,7 @@ import random
 
 points = 1
 
-difficulty = "hard"
+difficulty = "easy"
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
 
