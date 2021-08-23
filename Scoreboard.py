@@ -12,4 +12,4 @@ def SortScores():
     return sorted(list, key=get_first_value)
 
 #print(SortScores())
-string = 100 - Michael
+string = "100 - Michael"
