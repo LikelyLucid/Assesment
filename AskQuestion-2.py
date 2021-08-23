@@ -1,5 +1,5 @@
 import random
-points = 0
+GLOBALpoints = 0
 
 difficulty = "hard"
 easymin, easymax = 0, 30
