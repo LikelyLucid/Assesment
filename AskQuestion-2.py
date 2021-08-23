@@ -38,6 +38,7 @@ def answerwrong(points):
 
 
 while True:
+    print(points)
     if difficulty == "easy":
         # Set numbers to random a random number
         num1 = random.randint(easymin, easymax)
