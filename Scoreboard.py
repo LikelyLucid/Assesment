@@ -1,1 +1,1 @@
-with open("/Scores.txt", "a")
+with open("/Scores.txt", "a") as score
