@@ -55,10 +55,10 @@ while True:
             # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
-                answerright(points)
+                points = answerright(points)
 
             else:
-                answerwrong(points)
+                points = answerwrong(points)
 
         elif choice == 2:
             # figure out the answer
@@ -69,10 +69,10 @@ while True:
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
-                answerright(points)
+                points = answerright(points)
 
             else:
-                answerwrong(points)
+                points = answerwrong(points)
 
     elif difficulty == "hard":
         hardmin, hardmax = hardmin+(points * 5), hardmax+(points * 5)
@@ -88,10 +88,10 @@ while True:
             # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
-                answerright(points)
+                points = answerright(points)
 
             else:
-                answerwrong(points)
+                points = answerwrong(points)
 
         elif choice == 2:
             # figure out the answer
@@ -99,10 +99,10 @@ while True:
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
             if ask == answer:
-                answerright(points)
+                points = answerright(points)
 
             else:
-                answerwrong(points)
+                points = answerwrong(points)
 
         elif choice == 4:
             # figure out the answer
@@ -110,7 +110,7 @@ while True:
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} * {} = ".format(num1, num2))
             if ask == answer:
-                answerright(points)
+                points = answerright(points)
 
             else:
-                answerwrong(points)
+                points = answerwrong(points)
