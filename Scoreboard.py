@@ -8,4 +8,4 @@ def SortList(list):
         for line in scores:
             list.append(line)
     print(sorted(list, key=get_first_value))
-sortlist = 
+SortList()
