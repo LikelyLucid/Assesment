@@ -1,6 +1,6 @@
 list = []
 def get_first_value(string):
-    
+    print
     return string.split("-")[0]
 
 def SortScores():
