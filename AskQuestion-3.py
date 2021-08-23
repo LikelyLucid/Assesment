@@ -37,7 +37,7 @@ def answerwrong(points):
     if check_score(points): #check if score is 0
         finish() #if so call the end code
     print("your score is: ", points - 1)
-    return points #return
+    return points #return the points
 
 
 while True:
