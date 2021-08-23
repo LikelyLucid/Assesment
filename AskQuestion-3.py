@@ -1,5 +1,5 @@
 import random
-
+from 
 points = 1
 
 difficulty = "easy"
