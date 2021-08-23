@@ -27,6 +27,7 @@ def answerright(points):
     print("Correct answer!")
     points = points + 1
     print("your score is: ", points)
+    
 
 
 def answerwrong(points):
