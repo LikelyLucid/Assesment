@@ -1,2 +1,2 @@
-with open("/Scores.txt", "a") as scores:
+with open("./Scores.txt", "a") as scores:
     scores.write("\nTesting")
