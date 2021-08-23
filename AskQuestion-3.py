@@ -45,7 +45,7 @@ while True:
                                             # Set numbers to random a random number
         num1 = random.randint(easymin, easymax)
         num2 = random.randint(easymin, easymax)
-        # Make a choice between + or -
+                                            # Make a choice between + or -
         choice = random.randint(1, 2)
 
         if choice == 1:
