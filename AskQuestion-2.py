@@ -19,7 +19,7 @@ def integer_checker(question):
 
 
 def finish():
-    print("your score is: ", points)
+    print("your score was: ", points)
     exit()
 
 
