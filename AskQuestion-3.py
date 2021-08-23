@@ -1,5 +1,5 @@
 import random
-from 
+from checkscores
 points = 1
 
 difficulty = "easy"
