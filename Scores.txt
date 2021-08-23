@@ -1,2 +1,2 @@
-1 - Michael,
-100, Michael,
+1 - Michael
+100, Michael
