@@ -71,7 +71,7 @@ while True:
                 answerwrong()
 
     elif difficulty == "hard":
-        hardmin, hardmax = + (points * 5)
+        hardmin, hardmax = + (points * 5), (points * 5)
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
