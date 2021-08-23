@@ -26,7 +26,8 @@ def finish():
 def answerright(points):
     print("Correct answer!")
     points = points + 1 # add 1 to score
-    print("your score is: ", points - 1) # minus 1 point because they start with 1 point, Easier than setting score to 0 and checking if score is -1
+    print("your score is: ", points - 1) # minus 1 point because they start with 1 point, 
+    # Easier than setting score to 0 and checking if score is -1
     return points
 
 
