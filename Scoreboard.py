@@ -10,7 +10,4 @@ def SortScores():
     # print(sorted(list, key=get_first_value))
     return sorted(list, key=get_first_value)
 
-#print(SortScores())
-string = "100 - Michael"
-# string = string.split("-")
-print(string.split("-")[0])
+
