@@ -55,7 +55,7 @@ while True:
             if answer < 0:
                 num1, num2 = num2, num1
                 answer = num1 + num2
-            # ask for answer and check if it is an integer
+                                            # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
