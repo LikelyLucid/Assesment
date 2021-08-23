@@ -1,6 +1,6 @@
 list = []
 def get_first_value(string):
-    print(string)
+    print(string[0])
     return string[0]
 
 with open("./Scores.txt", "r") as scores:
