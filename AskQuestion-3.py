@@ -80,10 +80,10 @@ while True:
 
     elif difficulty == "hard":
         hardmin, hardmax = hardmin+(points * 5), hardmax+(points * 5)
-        # Set numbers to random a random number
+                                            # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
-        # Make a choice between + or -
+                                            # Make a choice between + or -
         choice = random.randint(1, 4)
 
         if choice == 1:
