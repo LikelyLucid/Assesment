@@ -48,6 +48,7 @@ while True:
         if choice == 1:
             # figure out the answer
             answer = num1 + num2
+            print(answer)
             if answer < 0:
                 num1, num2 = num2, num1
                 answer = num1 + num2
