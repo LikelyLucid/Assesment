@@ -1,2 +1,3 @@
 with open("./Scores.txt", "a") as scores:
-    scores.readlines()
+    for line in scores:
+        
