@@ -29,7 +29,7 @@ def answerright(points):
     print("your score is: ", points)
 
 
-def answerwrong(pointspoints):
+def answerwrong(points):
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1
