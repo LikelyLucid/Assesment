@@ -1,6 +1,6 @@
 # check player scores
 def check_score(player_score):
-                                # if score is more than 0 return true so that i can do "if check_score:"
+    # if score is more than 0 return true so that i can do "if check_score:"
     return player_score > 0
 
 
@@ -12,4 +12,3 @@ def check_score(player_score):
 #     else:
 #         print("Sorry, you have no lives left")
 #         print("{final summary}")
-
