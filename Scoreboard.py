@@ -24,7 +24,7 @@ def add_to_Scoreboard(string):
         for i in sortedlist:
             scores.write(i + "\n")
 def printscores():
-    with open("./Scores.txt", "r+") as scores:  # open file in read and append mode
+    with open("./Scores.txt", "r") as scores:
 
 
 
