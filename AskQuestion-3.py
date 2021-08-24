@@ -18,7 +18,8 @@ name, difficulty = playerInformation()
 def integer_checker(question):
     error = "\nSorry, you must enter a number\n"
     number = ""
-    if question == "exit"
+    if question == "exit":
+        
     while not number:
         try:
             number = int(input(question))
