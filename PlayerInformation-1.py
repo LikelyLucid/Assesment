@@ -17,7 +17,6 @@ def playerInformation()
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
 
 
-    # Check if the user has entered easy or hard. if not, ask them again.
     while True:
         if difficulty in ["Easy", "Hard"]:
             break
