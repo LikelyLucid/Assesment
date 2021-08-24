@@ -18,7 +18,7 @@ def add_to_Scoreboard(string):
             list.append(line.replace("\n", ""))
         list.append(string)
     emptyfile("./Scores.txt")
-    
+    sorted
     for i in list:
         scores.write(list[i - 1], "\n")
 
