@@ -2,7 +2,7 @@
 # Ask the user for their name and difficulty
 from RemovePunctuation import cleaninput
 import string
-def player
+def playerInformation()
 name = input("What is your name? ")
 name = cleaninput(name)
 
