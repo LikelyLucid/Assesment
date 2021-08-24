@@ -143,8 +143,8 @@ while True:
 
         else:
             max = 1 + rounds * 3
-            num1 = random.randint(3, max)
-            num2 = random.randint(3, max)
+            num1 = random.randint(1, max)
+            num2 = random.randint(1, max)
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
