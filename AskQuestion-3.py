@@ -101,7 +101,7 @@ while True:
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
-        # Make a choice between + or - or / or *
+        # Make a choice between + or - or *
         choice = random.randint(1, 4)
 
         if choice == 1:
