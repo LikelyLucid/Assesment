@@ -136,7 +136,7 @@ while True:
             else:
                 points = answerwrong(points)
 
-        elif choice == 4:
+        else choice == 4:
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
