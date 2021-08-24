@@ -5,7 +5,7 @@ def get_first_value(string):
     return int(string.split("-")[0])
 def removenewlines(string):
     string.split("\n")
-    re
+    r
 
 def SortScores():
     # print(sorted(list, key=get_first_value))
