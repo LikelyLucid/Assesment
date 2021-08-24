@@ -13,7 +13,7 @@ def SortScores():
     return sorted(list, key=get_first_value, reverse=True)
 
 def printscores():
-    print("SCORES")
+    print("SCORE")
     with open("./Scores.txt", "r") as scores:
         for line in scores:
             print(line.replace("\n", ""))
