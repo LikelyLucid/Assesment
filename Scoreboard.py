@@ -11,6 +11,7 @@ def SortScores():
     # print(sorted(list, key=get_first_value))
     return sorted(list, key=get_first_value, reverse=True)
 def add_to_Scoreboard(string):
+    
 scores = SortScores()
 print(scores)
 
