@@ -14,7 +14,7 @@ def playerInformation():
     print("Welcome to my maths quiz")
     print("Important information:")
     print("Your score goes up everytime you get a correct answer")
-    print()
+    print("and goes down")
 
 
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
