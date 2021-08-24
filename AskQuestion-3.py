@@ -98,7 +98,7 @@ while True:
                 points = answerwrong(points)
 
     elif difficulty == "Hard":
-        hardmin, hardmax = hardmin+(rounds * 5), hardmax+(rounds * 5)
+        hardmin, hardmax = hardmin+(rounds * 7), hardmax+(rounds * 5)
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
