@@ -4,7 +4,7 @@ def check_score(player_score):
     return player_score > 0
 
 
-Used for testing:
+#Used for testing:
 
 while True:
     if check_score(int(input("Waht is the player score:"))):
