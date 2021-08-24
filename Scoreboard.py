@@ -15,7 +15,7 @@ def SortScores():
 def add_to_Scoreboard(string):
     with open("./Scores.txt", "r+") as scores: #open file in read and append mode
         for line in scores:
-            list.append(line.replace("\n", "")) 
+            list.append(line.replace("\n", "")) #replace 
         list.append(string)
     emptyfile("./Scores.txt")
     sortedlist = SortScores()
