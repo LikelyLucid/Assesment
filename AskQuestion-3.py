@@ -5,7 +5,6 @@ global rounds
 points = 1
 rounds = 0
 cheatermode = False #used for testing will give you the answer
-difficulty = "easy"
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
 name, difficulty = playerInformation()
