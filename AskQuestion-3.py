@@ -122,6 +122,7 @@ while True:
 
             else:
                 points = answerwrong(points)
+        
         elif choice == 2:
             # figure out the answer
             answer = num1 - num2
