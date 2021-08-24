@@ -137,8 +137,8 @@ while True:
                 points = answerwrong(points)
 
         else:
-            num1 = random.randint(hardmin, hardmax)
-            num2 = random.randint(hardmin, rounds * )
+            num1 = random.randint(hardmin, rounds * 3)
+            num2 = random.randint(hardmin, rounds * 3)
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
