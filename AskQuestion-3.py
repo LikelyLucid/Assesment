@@ -126,6 +126,7 @@ while True:
         elif choice == 3:
             # change the difficulty of the numbers because when testing they were to hard to solve,
             # mostly because you had to times and divide in the hundreds
+            max = 1 + rounds * 3
             num1 = random.randint(3, 1 + (rounds * 3))
             num2 = random.randint(3, 1 + (rounds * 3))
             # figure out the answer
