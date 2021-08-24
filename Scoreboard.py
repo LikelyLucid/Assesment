@@ -23,6 +23,7 @@ def add_to_Scoreboard(string):
     with open("./Scores.txt", "a") as scores:
         for i in sortedlist:
             scores.write(i + "\n")
+    printscores
 def printscores():
     with open("./Scores.txt", "r") as scores:
         for line in scores:
