@@ -7,8 +7,8 @@ def get_first_value(string):
 def SortScores():
     list = []
     
-        for line in scores:
-            list.append(line)
+    for line in scores:
+        list.append(line)
     # print(sorted(list, key=get_first_value))
     return sorted(list, key=get_first_value, reverse=True)
 
