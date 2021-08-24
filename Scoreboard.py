@@ -19,6 +19,6 @@ def add_to_Scoreboard(string):
 # add_to_Scoreboard("23 - Michael")
 # scores = SortScores()
 # print(scores)
-print("")
+print("\t")
 
 
