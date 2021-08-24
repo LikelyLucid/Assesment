@@ -18,7 +18,7 @@ def playerInformation():
     print("The questions will get harder as you play.")
     print("If you have to leave the quiz just enter 'exit' into a question")
 
-    print
+    print("")
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
 
 
