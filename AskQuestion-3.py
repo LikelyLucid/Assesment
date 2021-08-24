@@ -1,6 +1,6 @@
 import random
 from checkscores1 import check_score
-from PlayerInformation-1 import PlayerInformation
+from PlayerInformation-1 import playerInformation
 global rounds
 points = 1
 rounds = 0
