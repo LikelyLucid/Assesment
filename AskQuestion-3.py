@@ -4,6 +4,7 @@ from PlayerInformation1 import playerInformation
 global rounds
 points = 1
 rounds = 0
+cheater 
 difficulty = "easy"
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
