@@ -137,7 +137,7 @@ while True:
                 points = answerwrong(points)
 
         else:
-            num1, num2 = 
+            num1, num2 = rand
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
