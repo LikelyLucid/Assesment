@@ -12,6 +12,11 @@ def SortScores():
     # print(sorted(list, key=get_first_value))
     return sorted(list, key=get_first_value, reverse=True)
 
+def printscores():
+    with open("./Scores.txt", "r") as scores:
+        for line in scores:
+            print(line.replace("\n", ""))
+
 def add_to_Scoreboard(string):
     with open("./Scores.txt", "r+") as scores: #open file in read and append mode
         for line in scores:
@@ -25,10 +30,7 @@ def add_to_Scoreboard(string):
             scores.write(i + "\n")
     printscores()
 
-def printscores():
-    with open("./Scores.txt", "r") as scores:
-        for line in scores:
-            print(line.replace("\n", ""))
+
 
 
 
