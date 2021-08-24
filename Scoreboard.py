@@ -10,7 +10,7 @@ def SortScores():
 
 def add_to_Scoreboard(string):
     with open("./Scores.txt", "a+") as scores:
-        for 
+        for line in 
         scores.seek(0)
 add_to_Scoreboard("23 - Michael")
 scores = SortScores()
