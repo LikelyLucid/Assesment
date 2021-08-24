@@ -3,8 +3,8 @@ list= []
 def get_first_value(string):
     print(string.split("-")[0])
     return int(string.split("-")[0])
-# def removenewlines(string):
-
+def removenewlines(string):
+    
 
 def SortScores():
     # print(sorted(list, key=get_first_value))
@@ -16,6 +16,8 @@ def add_to_Scoreboard(string):
             list.append(line)
         list.append(string)
 
-#
+add_to_Scoreboard("23 - Michael")
+scores = SortScores()
+print(scores)
 
 
