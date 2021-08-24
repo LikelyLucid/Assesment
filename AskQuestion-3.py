@@ -5,12 +5,15 @@ from Scoreboard import *
 global rounds
 points = 1
 rounds = 0
-cheatermode = False #used for testing will give you the answer
-easymin, easymax = 0, 30 #minimum and maximum numbers for equations
+cheatermode = False  # used for testing will give you the answer
+easymin, easymax = 0, 30  # minimum and maximum numbers for equations
 hardmin, hardmax = -20, 100
 
-name, difficulty = playerInformation() #set name and difficulty to the returned values
+# set name and difficulty to the returned values
+name, difficulty = playerInformation()
 # check for interger
+
+
 def integer_checker(question):
     error = "\nSorry, you must enter a number\n"
     number = ""
@@ -26,17 +29,19 @@ def finish():
     global rounds
     print("your score was: ", points - 1)
     print(f"you lasted {rounds} rounds")
-    add_to_Scoreboard(rounds + " - " + )
+    add_to_Scoreboard(rounds + " - " + name)
     exit()
 
 
 def answerright(points):
     global rounds
     print("Correct answer!")
-    points = points + 1 # add 1 to score
-    print("your score is: ", points - 1)# minus 1 point because they start with 1 point, 
+    points = points + 1  # add 1 to score
+    # minus 1 point because they start with 1 point,
+    print("your score is: ", points - 1)
     rounds += 1
-    return points                       # Easier than setting score to 0 and checking if score is -1
+    # Easier than setting score to 0 and checking if score is -1
+    return points
 
 
 def answerwrong(points):
@@ -44,11 +49,11 @@ def answerwrong(points):
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1  # add 1 to score
-    if not check_score(points): #check if score is 0
-        finish() #if so call the end code
-    print("your score is: ", points - 1) # wont run if the end code is called
+    if not check_score(points):  # check if score is 0
+        finish()  # if so call the end code
+    print("your score is: ", points - 1)  # wont run if the end code is called
     rounds += 1
-    return points #return the points
+    return points  # return the points
 
 
 while True:
@@ -124,7 +129,7 @@ while True:
 
             else:
                 points = answerwrong(points)
-        
+
         elif choice == 3:
             # change the difficulty of the numbers because when testing they were to hard to solve,
             # mostly because you had to times and divide in the hundreds
