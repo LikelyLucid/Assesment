@@ -1,5 +1,6 @@
 import random
 from checkscores1 import check_score
+global rounds
 points = 1
 rounds = 0
 difficulty = "easy"
