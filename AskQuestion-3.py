@@ -40,7 +40,7 @@ def answerwrong(points):
     if check_score(points): #check if score is 0
         finish() #if so call the end code
     print("your score is: ", points - 1) # wont run if the end code is called
-    rounds 
+    rounds += 1
     return points #return the points
 
 
