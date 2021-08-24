@@ -6,7 +6,7 @@ def get_first_value(string):
 def removenewlines(string):
     for i in list:
 
-    return string.replace
+    return string.replace("\n", "")
 
 def SortScores():
     # print(sorted(list, key=get_first_value))
