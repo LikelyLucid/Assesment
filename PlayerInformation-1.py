@@ -23,6 +23,6 @@ while True:
         break
     difficulty = input("Please enter a difficulty\nEasy or Hard: ").capitalize()
 
-exit
+
 
 
