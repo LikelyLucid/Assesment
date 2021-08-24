@@ -10,7 +10,7 @@ def SortScores():
             list.append(line)
     # print(sorted(list, key=get_first_value))
     return sorted(list, key=get_first_value, reverse=True)
-def add_to_Scoreboard
+def add_to_Scoreboard()
 scores = SortScores()
 print(scores)
 
