@@ -12,7 +12,7 @@ def SortScores():
     return sorted(list, key=get_first_value, reverse=True)
 def add_to_Scoreboard(string):
     with open("./Scoreboard.txt", "a") as scores:
-        
+        scores
 scores = SortScores()
 print(scores)
 
