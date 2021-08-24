@@ -15,7 +15,7 @@ def playerInformation():
     print("Important information:")
     print("Your score goes up everytime you get a correct answer")
     print("and goes down everytime you get a incorrect answer")
-    print("The ")
+    print("The questions will get harder as you play.")
 
 
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
