@@ -66,7 +66,7 @@ def hard_quiz():
             total_correct += 1
         else:
             print("Incorrect")
-            
+            print("answer")
             print(hard_compare)
     return total_correct
 
