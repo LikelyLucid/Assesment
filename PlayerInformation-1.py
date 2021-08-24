@@ -22,7 +22,7 @@ def playerInformation():
         if difficulty in ["Easy", "Hard"]:
             break
         difficulty = input("Please enter a difficulty\nEasy or Hard: ").capitalize()
-    
+    retu
 
 
 
