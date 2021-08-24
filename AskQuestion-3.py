@@ -22,7 +22,7 @@ def integer_checker(question):
     while not number:
         try:
             number = int(input(question))
-            if question == "exit":
+            if number == "exit":
                 finish()
             return number
         except ValueError:
