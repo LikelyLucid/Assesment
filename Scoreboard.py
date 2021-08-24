@@ -3,7 +3,7 @@ list= []
 def get_first_value(string):
     print(string.split("-")[0])
     return int(string.split("-")[0])
-def emptyfile()
+def emptyfile(file)
 
 def SortScores():
     # print(sorted(list, key=get_first_value))
