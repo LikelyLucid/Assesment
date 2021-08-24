@@ -16,9 +16,9 @@ def add_to_Scoreboard(string):
             list.append(removenewlines(line))
         list.append(string)
 
-# add_to_Scoreboard("23 - Michael")
-# scores = SortScores()
-# print(scores)
+add_to_Scoreboard("23 - Michael")
+scores = SortScores()
+print(scores)
 
 
 
