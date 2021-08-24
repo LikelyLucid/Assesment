@@ -19,7 +19,7 @@ def add_to_Scoreboard(string):
         list.append(string)
     emptyfile("./Scores.txt")
     for i in list:
-        scores.write(list[i - 1])
+        scores.write(list[i - 1], "\n")
 
 add_to_Scoreboard("23 - Michael")
 scores = SortScores()
