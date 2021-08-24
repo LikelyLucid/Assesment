@@ -23,8 +23,8 @@ def integer_checker(question):
         try:
             number = int(input(question))
             if question == "exit":
-        finish()
-        return number
+            finish()
+            return number
         except ValueError:
             print(error)
 
