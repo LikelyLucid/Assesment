@@ -149,6 +149,8 @@ while True:
                 points = answerwrong(points)
 
         else:
+            # change the difficulty of the numbers because when testing they were to hard to solve,
+            # mostly because you had to times and divide in the hundreds
             max = 1 + rounds * 3
             num1 = random.randint(1, max)
             num2 = random.randint(1, max)
