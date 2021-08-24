@@ -122,6 +122,18 @@ while True:
 
             else:
                 points = answerwrong(points)
+        elif choice == 2:
+            # figure out the answer
+            answer = num1 - num2
+            if cheatermode:
+                print(answer)
+            # ask for answer through interger checker
+            ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
+            if ask == answer:
+                points = answerright(points)
+
+            else:
+                points = answerwrong(points)
 
         elif choice == 4:
             # figure out the answer
