@@ -125,7 +125,8 @@ while True:
         
         elif choice == 3:
             # change the difficulty of the numbers because when testig tey were to hard to solve,
-            num1 = random.randint(3, (rounds * 3))
+            # mostly because you had to times and divide in the hundreds
+            # num1 = random.randint(3, (rounds * 3))
             # mostly because you had to times and divide in the hundreds
             num2 = random.randint(3, (rounds * 3))
             # figure out the answer
