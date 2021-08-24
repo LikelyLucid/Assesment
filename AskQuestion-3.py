@@ -6,7 +6,7 @@ rounds = 0
 difficulty = "easy"
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
-name 
+name, difficulty = 
 # check for interger
 def integer_checker(question):
     error = "\nSorry, you must enter a number\n"
