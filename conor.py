@@ -47,6 +47,7 @@ def easy_quiz():
             total_correct += 1
         else:
             print("Incorrect")
+            print()
     return total_correct
 
 
