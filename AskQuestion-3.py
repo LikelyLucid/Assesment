@@ -19,7 +19,7 @@ def integer_checker(question):
     error = "\nSorry, you must enter a number\n"
     number = ""
     if question == "exit":
-        
+        finish()
     while not number:
         try:
             number = int(input(question))
