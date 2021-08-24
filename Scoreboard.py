@@ -13,6 +13,7 @@ def add_to_Scoreboard(string):
         for line in scores:
             list.append(line)
         print(line)
+
         scores.seek(0)
 add_to_Scoreboard("23 - Michael")
 scores = SortScores()
