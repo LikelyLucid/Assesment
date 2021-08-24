@@ -26,7 +26,7 @@ def finish():
     global rounds
     print("your score was: ", points - 1)
     print(f"you lasted {rounds} rounds")
-    add_to_Scoreboard(name + " -")
+    add_to_Scoreboard(name + " - ")
     exit()
 
 
