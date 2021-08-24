@@ -15,7 +15,7 @@ def add_to_Scoreboard(string):
         scores.seek(0)
 
         scores.write(string)
-add_to_Scoreboard("23 - Michael")
+#add_to_Scoreboard("23 - Michael")
 scores = SortScores()
 print(scores)
 
