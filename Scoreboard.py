@@ -7,7 +7,7 @@ def get_first_value(string):
 
 def emptyfile(file):
     open(file, "w")
-    close
+    close(file)
 
 def SortScores():
     # print(sorted(list, key=get_first_value))
