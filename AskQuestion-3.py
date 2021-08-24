@@ -1,7 +1,7 @@
 import random
 from checkscores1 import check_score
 points = 1
-rounds 
+rounds =
 difficulty = "easy"
 easymin, easymax = 0, 30
 hardmin, hardmax = -20, 100
