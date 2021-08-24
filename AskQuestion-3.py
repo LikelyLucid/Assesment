@@ -141,7 +141,7 @@ while True:
                 points = answerwrong(points)
 
         else:
-            max = 
+            max = rounds 
             num1 = random.randint(3, 1 +(rounds * 3))
             num2 = random.randint(3, 1 +(rounds * 3))
             # figure out the answer
