@@ -8,7 +8,7 @@ cheatermode = False #used for testing will give you the answer
 easymin, easymax = 0, 30 #minimum and maximum numbers for equations
 hardmin, hardmax = -20, 100
 
-name, difficulty = playerInformation() #set 
+name, difficulty = playerInformation() #set name and difficulty to 
 # check for interger
 def integer_checker(question):
     error = "\nSorry, you must enter a number\n"
