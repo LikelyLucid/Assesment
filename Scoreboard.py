@@ -13,7 +13,7 @@ def SortScores():
 def add_to_Scoreboard(string):
     with open("./Scores.txt", "r") as scores:
         for line in scores:
-            list.append(removenewlines(line)
+            list.append(removenewlines(line))
         list.append(string)
 
 add_to_Scoreboard("23 - Michael")
