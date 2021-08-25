@@ -19,9 +19,8 @@ def integer_checker(question):
 
 
 def finish():
-    print("you lost")
-    print("your score was: ", points - 1)
-    print("Thank you for playing")
+    print(f"you lasted {rounds} rounds")
+    add_to_Scoreboard(f"{rounds} - {difficulty} - {name} ")
     exit()
 
 
