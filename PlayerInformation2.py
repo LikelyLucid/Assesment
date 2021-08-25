@@ -9,6 +9,7 @@ def playerInformation():
     while name == "":
         name = input("Please enter a valid name: ")
         name = cleaninput(name)
+    
     print("Hello, " + name.capitalize())
     print("Welcome to my maths quiz")
     print("\nImportant information:\n")
