@@ -35,7 +35,6 @@ def answerright(points):
     points = points + 1  # add 1 to score
     # minus 1 point because they start with 1 point,
     print("your score is: ", points - 1)
-    
     # Easier than setting score to 0 and checking if score is -1
     return points
 
@@ -47,7 +46,6 @@ def answerwrong(points):
     if not check_score(points):  # check if score is 0
         finish()  # if so call the end code
     print("your score is: ", points - 1)  # wont run if the end code is called
-    
     return points  # return the points
 
 
@@ -92,7 +90,7 @@ while True:
                 points = answerwrong(points)
 
     elif difficulty == "Hard":
-        hardmin, hardmax = hardmin+(, hardmax+(
+        hardmin, hardmax = hardmin, hardmax
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
