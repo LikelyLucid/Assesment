@@ -15,10 +15,10 @@ def playerInformation():
 
     print("\nImportant information:\n")
 
-    print("Your score goes up everytime you get a correct answer")
-    print("and goes down everytime you get a incorrect answer")
-    print("The questions will get harder as you play.")
-    print("If you have to leave the quiz just enter 'exit' into a question\n")
+    print("\tYour score goes up everytime you get a correct answer")
+    print("\tand goes down everytime you get a incorrect answer")
+    print("\tThe questions will get harder as you play.")
+    print("\tIf you have to leave the quiz just enter 'exit' into a question\n")
 
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
 
