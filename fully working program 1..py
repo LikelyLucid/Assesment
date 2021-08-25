@@ -26,7 +26,7 @@ def integer_checker(question):
 
 def finish():
     print("you lost")
-    print("your score was ")
+    print("your score was: {}".format(score))
 
 
 def answerright(points):
