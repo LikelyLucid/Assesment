@@ -1,10 +1,10 @@
 import random
-import string
-import threading
-from playsound import playsound
-from checkscores1 import check_score
+
 from PlayerInformation2 import playerInformation
 from Scoreboard import *
+from checkscores1 import check_score
+from playsound import playsound
+
 global rounds
 points = 1
 rounds = 0
@@ -15,6 +15,8 @@ CORRECTSOUND = "./correctsoundeffect.mp3"
 INCORRECTSOUND = "./incorrectsoundeffect.mp3"
 # set name and difficulty to the returned values
 name, difficulty = playerInformation()
+
+
 # check for interger
 
 
@@ -60,8 +62,8 @@ def answerwrong(points):
     points = points - 1  # add 1 to score
     if not check_score(points):  # check if score is 0
         finish()  # if so call the end code
-    print(f"you have {points} lives left")  # wont run if the end code is called
-    rounds += 1
+    print(f"you have {points} lives left")  # wont run if the end
+    rounds += 1  # code is called
     return points  # return the points
 
 
@@ -69,7 +71,7 @@ while True:
     if difficulty == "Easy":
         # Set numbers to random a random number
         num1 = random.randint(easymin, easymax + (rounds * 3))
-        num2 = random.randint(easymin, easymax + (rounds * 3) )
+        num2 = random.randint(easymin, easymax + (rounds * 3))
         # Make a choice between + or -
         choice = random.randint(1, 2)
 
@@ -106,7 +108,7 @@ while True:
                 points = answerwrong(points)
 
     elif difficulty == "Hard":
-        hardmin, hardmax = hardmin+(rounds * 7), hardmax+(rounds * 7)
+        hardmin, hardmax = hardmin + (rounds * 7), hardmax + (rounds * 7)
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
@@ -138,14 +140,12 @@ while True:
 
             else:
                 points = answerwrong(points)
-
-
         else:
-            # change the difficulty of the numbers because when testing they were to hard to solve,
-            # mostly because you had to times and divide in the hundreds
-            max = 1 + rounds * 3
-            num1 = random.randint(1, max)
-            num2 = random.randint(1, max)
+            max = 1 + rounds * 3  # change the difficulty of the numbers because
+            num1 = random.randint(1,
+                                  max)  # when testing they were to hard to solve,
+            num2 = random.randint(1,
+                                  max)  # mostly because you had to times and divide in the hundreds
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
