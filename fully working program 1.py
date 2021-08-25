@@ -1,4 +1,5 @@
 import random
+from scorebo
 global points
 points = 1
 
