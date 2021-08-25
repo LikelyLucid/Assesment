@@ -25,9 +25,7 @@ def integer_checker(question):
 
 
 def finish():
-
     print("your score was: ", points - 1)
-    
     print(“your score was: [points]”)
     print(“Thank you for playing”)
 
