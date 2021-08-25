@@ -14,7 +14,7 @@ def SortScores():
 
 def printscores():
     print("Score board:")
-    with open("./Scores.txt", "r") as scores: #open Scores.
+    with open("./Scores.txt", "r") as scores: #open Scores.txt in read mode so it doesnt change the value on accident
         for line in scores:
             print(line.replace("\n", "")) # remove \n and print it
 
