@@ -134,10 +134,6 @@ while True:
 
 
         else:
-            # change the difficulty of the numbers because when testing they were to hard to solve,
-            # mostly because you had to times and divide in the hundreds
-            num1 = random.randint(1, max)
-            num2 = random.randint(1, max)
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
