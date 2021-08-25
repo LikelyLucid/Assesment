@@ -3,7 +3,7 @@
 from RemovePunctuation import cleaninput
 import string
 def playerInformation():
-    name = input("What is your name? ")
+    name = input("What is your first name? ")
     name = cleaninput(name)
 
     while name == "":
