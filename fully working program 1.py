@@ -15,7 +15,7 @@ name, difficulty = playerInformation()
 def integer_checker(question):
     error = "\nSorry, you must enter a number\n"
     number = ""
-    
+
     while not number:
         try:
             number = int(input(question))
@@ -136,9 +136,9 @@ while True:
 
         #     else:
         #         points = answerwrong(points)
-            
+
         else:
-    
+
             # figure out the answer
             answer = num1 * num2
             if cheatermode:

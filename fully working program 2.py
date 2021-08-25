@@ -55,7 +55,8 @@ def answerwrong(points):
     points = points - 1  # add 1 to score
     if not check_score(points):  # check if score is 0
         finish()  # if so call the end code
-    print(f"you have {points} lives left")  # wont run if the end code is called
+    # wont run if the end code is called
+    print(f"you have {points} lives left")
     rounds += 1
     return points  # return the points
 
@@ -64,7 +65,7 @@ while True:
     if difficulty == "Easy":
         # Set numbers to random a random number
         num1 = random.randint(easymin, easymax + (rounds * 3))
-        num2 = random.randint(easymin, easymax + (rounds * 3) )
+        num2 = random.randint(easymin, easymax + (rounds * 3))
         # Make a choice between + or -
         choice = random.randint(1, 2)
 
@@ -133,7 +134,6 @@ while True:
 
             else:
                 points = answerwrong(points)
-
 
         else:
             # change the difficulty of the numbers because when testing they were to hard to solve,
