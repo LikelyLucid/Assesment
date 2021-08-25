@@ -54,7 +54,7 @@ def answerright(points):
 
 def answerwrong(points):
     global rounds
-    threading.playsound(INCORRECTSOUND)
+    playsound(INCORRECTSOUND)
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1  # add 1 to score
