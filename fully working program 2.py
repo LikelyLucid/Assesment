@@ -24,7 +24,7 @@ def integer_checker(question):
             number = input(question)
             if number == "exit":
                 finish()
-            
+            number = int(number)
             return number
         except ValueError:
             print(error)
