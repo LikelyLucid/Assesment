@@ -33,7 +33,7 @@ def integer_checker(question):
 def finish():
     print(f"you lasted {rounds} rounds")
     add_to_Scoreboard(f"{rounds} - {difficulty} - {name} ")
-    print("\nThank you for palying")
+    print("\nThank you for playing")
     exit()
 
 
