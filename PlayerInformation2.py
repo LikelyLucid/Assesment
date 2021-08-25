@@ -11,11 +11,11 @@ def playerInformation():
         name = cleaninput(name)
     print("Hello, " + name.capitalize())
     print("Welcome to my maths quiz")
-   print("\nImportant information:\n")
-   print("Your score goes up everytime you get a correct answer")
-   print("and goes down everytime you get a incorrect answer")
-   print("The questions will get harder as you play.")
-   print("If you have to leave the quiz just enter 'exit' into a question")
+    print("\nImportant information:\n")
+    print("Your score goes up everytime you get a correct answer")
+    print("and goes down everytime you get a incorrect answer")
+    print("The questions will get harder as you play.")
+    print("If you have to leave the quiz just enter 'exit' into a question")
 
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
 
