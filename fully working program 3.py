@@ -53,7 +53,7 @@ def answerright(points):
 
 def answerwrong(points):
     global rounds
-    playsound(INCORRECTSOUND, False)
+    async playsound(INCORRECTSOUND, False)
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1  # add 1 to score
