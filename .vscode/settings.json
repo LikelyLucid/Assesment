@@ -16,7 +16,7 @@
         "titleBar.inactiveBackground": "#33cc9999",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "editor.rulers": [
-    "editor.ruler": 80
+    "editor.rulers": 
+    
     ]
 }
