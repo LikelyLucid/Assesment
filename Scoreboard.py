@@ -16,7 +16,7 @@ def printscores():
     print("Score board:")
     with open("./Scores.txt", "r") as scores:
         for line in scores:
-            print(line.replace("\n", "")) # remove \n 
+            print(line.replace("\n", "")) # remove \n and print it
 
 def add_to_Scoreboard(string):
     with open("./Scores.txt", "r+") as scores: #open file in read and append mode
