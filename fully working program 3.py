@@ -1,6 +1,6 @@
 import random
 import string
-import Threading
+import threading
 from playsound import playsound
 from checkscores1 import check_score
 from PlayerInformation2 import playerInformation
