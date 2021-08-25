@@ -1,5 +1,6 @@
 import random
 import string
+import asyncio
 from playsound import playsound
 from checkscores1 import check_score
 from PlayerInformation2 import playerInformation
@@ -53,7 +54,7 @@ def answerright(points):
 
 def answerwrong(points):
     global rounds
-    async playsound(INCORRECTSOUND, False)
+     playsound(INCORRECTSOUND, False)
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1  # add 1 to score
