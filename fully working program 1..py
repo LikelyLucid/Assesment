@@ -124,7 +124,7 @@ while True:
             else:
                 points = answerwrong(points)
 
-
+        elif c
         else:
     
             # figure out the answer
