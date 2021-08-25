@@ -41,7 +41,7 @@ def answerright(points):
     print("Correct answer!")
     points = points + 1  # add 1 to score
     # minus 1 point because they start with 1 point,
-    print("you have {points} lives left")
+    print(f"you have {points} lives left")
     rounds += 1
     # Easier than setting score to 0 and checking if score is -1
     return points
