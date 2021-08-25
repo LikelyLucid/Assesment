@@ -17,7 +17,7 @@ def playerInformation():
 
     print("\tYour score goes up everytime you get a correct answer")
     print("\tand goes down everytime you get a incorrect answer")
-    print()
+    print("\tif your score gets to 0 the game will end")
     print("\tThe questions will get harder as you play.")
     print("\tIf you have to leave the quiz just enter 'exit' into a question\n")
 
