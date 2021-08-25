@@ -25,7 +25,7 @@ def integer_checker(question):
 
 
 def finish():
-    print("")
+    print("Thank ")
 
 
 def answerright(points):
