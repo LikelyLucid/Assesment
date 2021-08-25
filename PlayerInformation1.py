@@ -10,7 +10,6 @@ def playerInformation():
         name = input("Please enter a valid name: ")
         name = cleaninput(name)
 
-    print("")
     difficulty = input("What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
 
 
