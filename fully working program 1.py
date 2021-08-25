@@ -68,7 +68,12 @@ while True:
                 answer = num1 + num2
             # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
-            points = answerright(points) if ask == answer else answerwrong(points)
+            if ask == answer:
+                points = answerright(points)
+
+            else:
+                points = answerwrong(points)
+
         elif choice == 2:
             # figure out the answer
             answer = num1 - num2
@@ -79,7 +84,12 @@ while True:
                 answer = num1 - num2
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
-            points = answerright(points) if ask == answer else answerwrong(points)
+            if ask == answer:
+                points = answerright(points)
+
+            else:
+                points = answerwrong(points)
+
     elif difficulty == "Hard":
         hardmin, hardmax = hardmin, hardmax
         # Set numbers to random a random number
@@ -95,6 +105,12 @@ while True:
                 print(answer)
             # ask for answer and check if it is an integer
             ask = integer_checker("What does\n{} + {} = ".format(num1, num2))
+            if ask == answer:
+                points = answerright(points)
+
+            else:
+                points = answerwrong(points)
+
         elif choice == 2:
             # figure out the answer
             answer = num1 - num2
@@ -102,12 +118,35 @@ while True:
                 print(answer)
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
-        else:
+            if ask == answer:
+                points = answerright(points)
+
+            else:
+                points = answerwrong(points)
+
+        # elif choice == 3:
+        #     # figure out the answer
+        #     answer = num1 / num2
+        #     if cheatermode:
+        #         print(answer)
+        #     # ask for answer through interger checker
+        #     ask = integer_checker("What does\n{} / {} = ".format(num1, num2))
+        #     if ask == answer:
+        #         points = answerright(points)
+
+        #     else:
+        #         points = answerwrong(points)
             
+        else:
+    
             # figure out the answer
             answer = num1 * num2
             if cheatermode:
                 print(answer)
             # ask for answer through interger checker
             ask = integer_checker("What does\n{} * {} = ".format(num1, num2))
-        points = answerright(points) if ask == answer else answerwrong(points)
+            if ask == answer:
+                points = answerright(points)
+
+            else:
+                points = answerwrong(points)
