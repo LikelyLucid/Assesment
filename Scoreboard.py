@@ -1,7 +1,7 @@
 global list 
 list= []
 def get_first_value(string):
-    # print(string.split("-")[0])  #f
+    # print(string.split("-")[0])  #for testing to see the output
     return int(string.split("-")[0])
 
 
