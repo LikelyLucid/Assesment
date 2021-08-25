@@ -2,7 +2,6 @@ import random
 import string
 from checkscores1 import check_score
 from PlayerInformation1 import playerInformation
-global rounds
 points = 1
 cheatermode = False  # used for testing will give you the answer
 easymin, easymax = 0, 30  # minimum and maximum numbers for equations
@@ -32,7 +31,7 @@ def finish():
 
 
 def answerright(points):
-    global rounds
+
     print("Correct answer!")
     points = points + 1  # add 1 to score
     # minus 1 point because they start with 1 point,
@@ -43,7 +42,7 @@ def answerright(points):
 
 
 def answerwrong(points):
-    global rounds
+
     print("answer wrong")
     print(f"The answer was {answer}")
     points = points - 1  # add 1 to score
