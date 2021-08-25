@@ -12,8 +12,9 @@ def playerInformation():
     
     print("Hello, " + name.capitalize())
     print("Welcome to my maths quiz")
-    
+
     print("\nImportant information:\n")
+    
     print("Your score goes up everytime you get a correct answer")
     print("and goes down everytime you get a incorrect answer")
     print("The questions will get harder as you play.")
