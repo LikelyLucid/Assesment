@@ -126,11 +126,11 @@ while True:
 
         elif choice == 3:
             # figure out the answer
-            answer = num1 - num2
+            answer = num1 / num2
             if cheatermode:
                 print(answer)
             # ask for answer through interger checker
-            ask = integer_checker("What does\n{} - {} = ".format(num1, num2))
+            ask = integer_checker("What does\n{} / {} = ".format(num1, num2))
             if ask == answer:
                 points = answerright(points)
 
