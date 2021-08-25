@@ -1,5 +1,4 @@
 import random
-from Scoreboard import *
 global points
 points = 1
 
@@ -20,8 +19,9 @@ def integer_checker(question):
 
 
 def finish():
-    print(f"you lasted {rounds} rounds")
-    add_to_Scoreboard(f"{rounds} - {difficulty} - {name} ")
+    print("you ")
+    print("your score was: ", points - 1)
+    print("Thank you for playing")
     exit()
 
 
