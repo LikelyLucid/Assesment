@@ -41,7 +41,7 @@ def finish():
 
 def answerright(points):
     global rounds
-    playsound(CORRECTSOUND)
+    playsound(CORRECTSOUND, True)
     print("Correct answer!")
     points = points + 1  # add 1 to score
     # minus 1 point because they start with 1 point,
