@@ -124,7 +124,7 @@ while True:
             else:
                 points = answerwrong(points)
 
-        elif c
+        elif choice == 3:
         else:
     
             # figure out the answer
