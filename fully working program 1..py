@@ -96,7 +96,7 @@ while True:
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)
         # Make a choice between + or - or *
-        choice = random.randint(1, 4)
+        choice = random.randint(1, 3)
 
         if choice == 1:
             # figure out the answer
