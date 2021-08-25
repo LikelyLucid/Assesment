@@ -3,7 +3,6 @@ def check_score(player_score):
     # if score is more than 0 return true so that i can do "if check_score:"
     return player_score > 0
 
-
 # Used for testing:
 
 # while True:

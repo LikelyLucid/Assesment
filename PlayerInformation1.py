@@ -1,7 +1,7 @@
-
 # Ask the user for their name and difficulty
-from RemovePunctuation import cleaninput
 import string
+
+from RemovePunctuation import cleaninput
 
 
 def playerInformation():

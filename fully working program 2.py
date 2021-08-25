@@ -1,8 +1,10 @@
 import random
 import string
-from checkscores1 import check_score
+
 from PlayerInformation2 import playerInformation
 from Scoreboard import *
+from checkscores1 import check_score
+
 global rounds
 points = 1
 rounds = 0
@@ -12,6 +14,8 @@ hardmin, hardmax = -20, 100
 
 # set name and difficulty to the returned values
 name, difficulty = playerInformation()
+
+
 # check for interger
 
 
@@ -102,7 +106,7 @@ while True:
                 points = answerwrong(points)
 
     elif difficulty == "Hard":
-        hardmin, hardmax = hardmin+(rounds * 7), hardmax+(rounds * 7)
+        hardmin, hardmax = hardmin + (rounds * 7), hardmax + (rounds * 7)
         # Set numbers to random a random number
         num1 = random.randint(hardmin, hardmax)
         num2 = random.randint(hardmin, hardmax)

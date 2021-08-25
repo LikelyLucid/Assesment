@@ -1,9 +1,10 @@
 import random
 
+from playsound import playsound
+
 from PlayerInformation2 import playerInformation
 from Scoreboard import *
 from checkscores1 import check_score
-from playsound import playsound
 
 global rounds
 points = 1
@@ -141,7 +142,7 @@ while True:
             else:
                 points = answerwrong(points)
         else:
-            max = 1 + rounds*3  # change the difficulty of the numbers because
+            max = 1 + rounds * 3  # change the difficulty of the numbers because
             # when testing they were to hard to solve,
             num1 = random.randint(1, max)
             # mostly because you had to times and divide in the hundreds

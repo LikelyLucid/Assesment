@@ -1,7 +1,6 @@
-
 # Ask the user for their name and difficulty
+
 from RemovePunctuation import cleaninput
-import string
 
 
 def playerInformation():
@@ -21,10 +20,11 @@ def playerInformation():
     print("\tand goes down everytime you get a incorrect answer")
     print("\tif your score gets to 0 the game will end")
     print("\tThe questions will get harder as you play.")
-    print("\tIf you have to leave the quiz just enter 'exit' into a question\n")
+    print("\tIf you have to leave the quiz just enter 'exit' into a question")
 
     difficulty = input(
-        "What difficulty would you like to play with?\nEasy or Hard: ").capitalize()
+        "\nWhat difficulty would you like to play with?\n"
+        "Easy or Hard: ").capitalize()
 
     # Check if the user has entered easy or hard. if not, ask them again.
     while True:
