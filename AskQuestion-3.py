@@ -22,7 +22,6 @@ def integer_checker(question):
     while not number:
         try:
             number = int(input(question))
-            number = int(number)
             return number
         except ValueError:
             print(error)
