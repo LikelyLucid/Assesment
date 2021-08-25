@@ -6,7 +6,7 @@ def get_first_value(string):
 
 
 def emptyfile(file):
-    open(file, "w").close #opens a file in write mode to delete all contents and closes it
+    open(file, "w").close # opens a file in write mode to delete all contents and closes it
 
 def SortScores():
     # print(sorted(list, key=get_first_value))
@@ -14,7 +14,7 @@ def SortScores():
 
 def printscores():
     print("Score board:")
-    with open("./Scores.txt", "r") as scores: #open Scores.txt in read mode so it doesnt change the value on accident
+    with open("./Scores.txt", "r") as scores: #open Scores.txt in read mode so it doesn't change the value on accident
         for line in scores:
             print(line.replace("\n", "")) # remove \n and print it
 
