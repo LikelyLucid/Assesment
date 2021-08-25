@@ -4,7 +4,6 @@ from checkscores1 import check_score
 from PlayerInformation1 import playerInformation
 global rounds
 points = 1
-rounds = 0
 cheatermode = False  # used for testing will give you the answer
 easymin, easymax = 0, 30  # minimum and maximum numbers for equations
 hardmin, hardmax = -20, 100
