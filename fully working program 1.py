@@ -1,5 +1,5 @@
 import random
-from scorebo
+from scoreboard import 
 global points
 points = 1
 
