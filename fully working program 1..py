@@ -28,6 +28,7 @@ def finish():
     print("you lost")
     print("your score was: {}".format(points))
     print("thank you for playing")
+    exit()
 
 
 def answerright(points):
